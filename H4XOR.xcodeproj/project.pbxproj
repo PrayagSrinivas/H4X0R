@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E1D3B1123E66B3D001B7ED6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D3B1023E66B3D001B7ED6 /* NetworkManager.swift */; };
+		8E1D3B1323E66B73001B7ED6 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D3B1223E66B73001B7ED6 /* PostData.swift */; };
+		8E1D3B1623E673B3001B7ED6 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D3B1523E673B3001B7ED6 /* DetailView.swift */; };
+		8E1D3B1823E6807A001B7ED6 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D3B1723E6807A001B7ED6 /* WebView.swift */; };
 		8E35F26523E497110056F1BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E35F26423E497110056F1BB /* AppDelegate.swift */; };
 		8E35F26723E497110056F1BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E35F26623E497110056F1BB /* SceneDelegate.swift */; };
 		8E35F26923E497110056F1BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E35F26823E497110056F1BB /* ContentView.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E1D3B1023E66B3D001B7ED6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8E1D3B1223E66B73001B7ED6 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		8E1D3B1523E673B3001B7ED6 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		8E1D3B1723E6807A001B7ED6 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		8E35F26123E497110056F1BB /* H4XOR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = H4XOR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E35F26423E497110056F1BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E35F26623E497110056F1BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +45,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E1D3B0F23E66AF6001B7ED6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E1D3B1023E66B3D001B7ED6 /* NetworkManager.swift */,
+				8E1D3B1223E66B73001B7ED6 /* PostData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8E1D3B1423E67377001B7ED6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8E35F26823E497110056F1BB /* ContentView.swift */,
+				8E1D3B1523E673B3001B7ED6 /* DetailView.swift */,
+				8E1D3B1723E6807A001B7ED6 /* WebView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		8E35F25823E497110056F1BB = {
 			isa = PBXGroup;
 			children = (
@@ -58,7 +85,8 @@
 			children = (
 				8E35F26423E497110056F1BB /* AppDelegate.swift */,
 				8E35F26623E497110056F1BB /* SceneDelegate.swift */,
-				8E35F26823E497110056F1BB /* ContentView.swift */,
+				8E1D3B1423E67377001B7ED6 /* Views */,
+				8E1D3B0F23E66AF6001B7ED6 /* Models */,
 				8E35F26A23E497120056F1BB /* Assets.xcassets */,
 				8E35F26F23E497120056F1BB /* LaunchScreen.storyboard */,
 				8E35F27223E497120056F1BB /* Info.plist */,
@@ -146,9 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E1D3B1323E66B73001B7ED6 /* PostData.swift in Sources */,
+				8E1D3B1623E673B3001B7ED6 /* DetailView.swift in Sources */,
+				8E1D3B1123E66B3D001B7ED6 /* NetworkManager.swift in Sources */,
 				8E35F26523E497110056F1BB /* AppDelegate.swift in Sources */,
 				8E35F26723E497110056F1BB /* SceneDelegate.swift in Sources */,
 				8E35F26923E497110056F1BB /* ContentView.swift in Sources */,
+				8E1D3B1823E6807A001B7ED6 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
